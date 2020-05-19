@@ -12,7 +12,7 @@
 
 ## Solution
 
-![whiteboard](./assets/arrayshift.png)
+![whiteboard](assets/arrayshift.png)
 
 ## Test
 
