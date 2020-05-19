@@ -14,4 +14,4 @@
 
 ## Solution
 
-![whiteboard](./assets/arrayReverse.png)
+![whiteboard](../assets/arrayReverse.png)
