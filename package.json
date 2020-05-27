@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "**Class** | **Content** \r --- | --- \r Class01 | arrayReverse\r --- | --- \r Class02 | arrayShift\r --- | --- \r Class03 | arrayBinarySearch",
+  "main": "index.js",
+  "scripts": {
+    "test":  "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
