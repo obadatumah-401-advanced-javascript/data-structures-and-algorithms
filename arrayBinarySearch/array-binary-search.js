@@ -9,8 +9,10 @@ function BinarySearch(arr, num) {
     return -1;
 }
 
-let arr = [2, 5, 8, 9, 6, 4];
-BinarySearch(arr, 8); 
-BinarySearch(arr, 2);
-BinarySearch(arr, 4);
-BinarySearch(arr, 10);
+module.exports.BinarySearch = BinarySearch;
+
+// let arr = [2, 5, 8, 9, 6, 4];
+// BinarySearch(arr, 8); 
+// BinarySearch(arr, 2);
+// BinarySearch(arr, 4);
+// BinarySearch(arr, 10);
