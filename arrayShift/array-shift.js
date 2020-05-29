@@ -5,8 +5,9 @@ function insertShiftArray(arr, value) {
     return arr;
 }
 
-var list = [1, 2, 3, 4, 5, 6, 7, 8];
+module.exports.insertShiftArray = insertShiftArray;
+// var list = [1, 2, 3, 4, 5, 6, 7, 8];
 
-insertShiftArray(list,10);
+// insertShiftArray(list,10);
 
 // console.log(insertShiftArray(list,10));
