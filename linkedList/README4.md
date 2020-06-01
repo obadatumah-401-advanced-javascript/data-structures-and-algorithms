@@ -1,10 +1,10 @@
-# LinkedList
+# LinkedList (insertion)
 
-### create a singly linkedlist .
+### create a doubly linkedlist .
 
 ## Challenge
 
-### create a linked list with inertion , searching and converting methods.
+### create a linked list with inertion (at the end or in specific place) , searching and converting methods.
 
 ## Approach & Efficiency
 
@@ -16,4 +16,4 @@
 
 ## Test
 
-### i used jest package to test my code with 4 tests (npm run test --linked-list.test.js) . 
+### i used jest package to test my code with 6 tests (npm run test --linked-list.test.js) . 
