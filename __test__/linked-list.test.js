@@ -73,3 +73,21 @@ describe('insert a value after a choosen value', ()=> {
         expect(list.toString()).toEqual('{ one } -> { two } -> { target } -> { three } -> NULL');
     });
 });
+
+describe('return the value of specific index number', ()=> {
+    it('fromEnd()', ()=> {
+        let list = new Linkedlist();
+        let nodeOne = 'one';
+        let nodeTwo = 'two';
+        let nodeThree = 'three';
+        list.append(nodeOne);
+        list.append(nodeTwo);
+        list.append(nodeThree);
+        
+
+        expect(list.fromEnd(0)).toEqual('three');
+        expect(list.fromEnd(1)).toEqual('two');
+        expect(list.fromEnd(2)).toEqual('one');
+        expect(list.fromEnd(3)).toEqual('exception');
+    });
+});

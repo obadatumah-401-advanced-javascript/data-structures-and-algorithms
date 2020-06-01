@@ -13,9 +13,11 @@ class LinkedList {
     constructor() {
         this.head = null;
         this.tail = null;
+        this.size = 0;
     }
 
     append(value) {
+        this.size = this.size+1;
         const newNode = new Node(value);
         if (this.head === null) {
             this.head = newNode;
@@ -90,6 +92,21 @@ class LinkedList {
         currentNode.previous = node;
         return this;
     }
+
+    fromEnd(number){
+        let currentNode = this.tail;
+        let counter = 0 ;
+        if(number < this.size){
+        while(counter != number){
+          currentNode = currentNode.previous;
+          counter++;
+        }
+        return currentNode.value;
+      }
+      else{
+        return 'exception';
+      }
+      }
 
 
 }
