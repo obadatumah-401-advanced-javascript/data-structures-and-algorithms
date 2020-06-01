@@ -4,11 +4,11 @@
 
 ## Challenge
 
-### create a linked list with inertion (at the end or in specific place) , searching and converting methods.
+### create a linked list with inertion (at the end or in specific place) , searching ,converting methods and searching from the end by index number. 
 
 ## Approach & Efficiency
 
-### i used a basic methods to iterate to all nodes in linked list.
+### i used a basic methods to iterate to all nodes in linked list, with bigO O(n) for each method because every method is used a loop to iterate the linkedlist.
 
 ## Solution
 
