@@ -2,20 +2,24 @@
 
 **Class** | **Content** 
 --- | --- 
-Class01 | arrayReverse
+Array Reverse | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/arrayReverse)
 --- | --- 
-Class02 | arrayShift
+arrayShift | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/arrayShift)
 --- | --- 
-Class03 | arrayBinarySearch
+arrayBinarySearch | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/arrayBinarySearch)
 --- | --- 
-Class04 | LinkedList
+LinkedList | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/linkedList)
 --- | --- 
-Class05 | LinkedList Merge
+LinkedList Merge | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/llMerge)
 --- | --- 
-Class06 | Queue and Stack
+Queue and Stack | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/stacksAndQueues)
 --- | --- 
-Class07 | Queue with Stack
+Queue with Stack | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/queueWithStacks)
 --- | --- 
-Class08 | Multi Brackets Validation
+Multi Brackets Validation | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/multiBracketValidation)
 --- | --- 
-Class09 | Queue Animal Shelter
+Queue Animal Shelter | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/fifoAnimalShelter)
+--- | --- 
+Tree | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/tree)
+--- | --- 
+FizzBuzz tree | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/fizzBuzzTree)
