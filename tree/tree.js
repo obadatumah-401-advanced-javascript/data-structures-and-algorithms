@@ -44,6 +44,29 @@ class BinaryTree {
         return result;
     }
 
+    breadthFirstTraversal(tree) {
+        if (tree == null) {
+          return;
+        }
+        let queue = [tree]
+        let list = [];
+        while (queue.length > 0) {
+          let item = queue.shift()
+          let value = item.value
+          list.push(value)
+          if (item.left == null && item.right == null) {
+            continue
+          }
+          if (item.left != null) {
+            queue.push(item.left)
+          }
+          if (item.right != null) {
+            queue.push(item.right)
+          }
+        }
+        return list;
+      }
+
 }
 
 module.exports = {
