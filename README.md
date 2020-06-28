@@ -23,3 +23,5 @@ Queue Animal Shelter | [CLICK!](https://github.com/obadatumah-401-advanced-javas
 Tree | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/tree)
 --- | --- 
 FizzBuzz tree | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/fizzBuzzTree)
+--- | --- 
+selectionSort | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/selectionSort)
