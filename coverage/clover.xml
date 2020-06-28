@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592013839997" clover="3.2.0">
-  <project timestamp="1592013839998" name="All files">
-    <metrics statements="14" coveredstatements="8" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="2" elements="25" coveredelements="14" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
-    <file name="fifo-animal-shelter.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/fifoAnimalShelter/fifo-animal-shelter.js">
-      <metrics statements="14" coveredstatements="8" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="2"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="10" count="3" type="cond" truecount="4" falsecount="0"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="20" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="21" count="0" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="25" count="0" type="stmt"/>
-      <line num="27" count="0" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
+<coverage generated="1593350094630" clover="3.2.0">
+  <project timestamp="1593350094631" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="14" coveredelements="14" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+    <file name="selectionSort.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/selectionSort/selectionSort.js">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="10" type="stmt"/>
+      <line num="7" count="10" type="stmt"/>
+      <line num="8" count="40" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="10" type="stmt"/>
+      <line num="11" count="10" type="stmt"/>
+      <line num="12" count="10" type="stmt"/>
+      <line num="13" count="10" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
