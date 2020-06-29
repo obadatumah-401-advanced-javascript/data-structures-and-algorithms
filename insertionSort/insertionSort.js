@@ -1,6 +1,6 @@
 'use strict';
 
-function SelectionSort(arr) {
+function insertionSort(arr) {
     let n = arr.length;
     for (var i = 0; i < n - 1; i++) {
         var min = i;
@@ -15,4 +15,4 @@ function SelectionSort(arr) {
     return arr;
 }
 
-module.exports.SelectionSort = SelectionSort;
+module.exports.insertionSort = insertionSort;
