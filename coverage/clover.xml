@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593456484966" clover="3.2.0">
-  <project timestamp="1593456484966" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="40" coveredelements="40" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
-    <file name="mergeSort.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/mergeSort/mergeSort.js">
-      <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="46" type="stmt"/>
-      <line num="6" count="46" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="20" type="stmt"/>
-      <line num="8" count="20" type="stmt"/>
-      <line num="9" count="20" type="stmt"/>
-      <line num="11" count="20" type="stmt"/>
-      <line num="12" count="20" type="stmt"/>
-      <line num="13" count="20" type="stmt"/>
-      <line num="16" count="26" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="20" type="stmt"/>
-      <line num="22" count="20" type="stmt"/>
-      <line num="23" count="20" type="stmt"/>
-      <line num="25" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="26" count="36" type="cond" truecount="2" falsecount="0"/>
-      <line num="27" count="24" type="stmt"/>
-      <line num="28" count="24" type="stmt"/>
-      <line num="30" count="12" type="stmt"/>
-      <line num="31" count="12" type="stmt"/>
-      <line num="33" count="36" type="stmt"/>
-      <line num="36" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="37" count="12" type="stmt"/>
-      <line num="38" count="16" type="stmt"/>
-      <line num="39" count="16" type="stmt"/>
-      <line num="42" count="8" type="stmt"/>
-      <line num="43" count="12" type="stmt"/>
-      <line num="44" count="12" type="stmt"/>
-      <line num="47" count="20" type="stmt"/>
-      <line num="51" count="1" type="stmt"/>
+<coverage generated="1593543636214" clover="3.2.0">
+  <project timestamp="1593543636215" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="25" coveredelements="25" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+    <file name="quickSort.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/quickSort/quickSort.js">
+      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="4" count="43" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="18" type="stmt"/>
+      <line num="6" count="18" type="stmt"/>
+      <line num="7" count="18" type="stmt"/>
+      <line num="8" count="18" type="stmt"/>
+      <line num="12" count="18" type="stmt"/>
+      <line num="13" count="18" type="stmt"/>
+      <line num="14" count="18" type="stmt"/>
+      <line num="15" count="52" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="39" type="stmt"/>
+      <line num="17" count="39" type="stmt"/>
+      <line num="20" count="18" type="stmt"/>
+      <line num="21" count="18" type="stmt"/>
+      <line num="25" count="57" type="stmt"/>
+      <line num="26" count="57" type="stmt"/>
+      <line num="27" count="57" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
