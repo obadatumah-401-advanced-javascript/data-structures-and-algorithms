@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593543636214" clover="3.2.0">
-  <project timestamp="1593543636215" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="25" coveredelements="25" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
-    <file name="quickSort.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/quickSort/quickSort.js">
-      <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-      <line num="4" count="43" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="18" type="stmt"/>
-      <line num="6" count="18" type="stmt"/>
-      <line num="7" count="18" type="stmt"/>
-      <line num="8" count="18" type="stmt"/>
-      <line num="12" count="18" type="stmt"/>
-      <line num="13" count="18" type="stmt"/>
-      <line num="14" count="18" type="stmt"/>
-      <line num="15" count="52" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="39" type="stmt"/>
-      <line num="17" count="39" type="stmt"/>
-      <line num="20" count="18" type="stmt"/>
-      <line num="21" count="18" type="stmt"/>
-      <line num="25" count="57" type="stmt"/>
-      <line num="26" count="57" type="stmt"/>
-      <line num="27" count="57" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
+<coverage generated="1593783627857" clover="3.2.0">
+  <project timestamp="1593783627857" name="All files">
+    <metrics statements="36" coveredstatements="26" conditionals="6" coveredconditionals="4" methods="10" coveredmethods="9" elements="52" coveredelements="39" complexity="0" loc="36" ncloc="36" packages="1" files="1" classes="1"/>
+    <file name="hashMap.js" path="/mnt/c/Users/STD/codefellows/401/data-structures-and-algorithms/hashMap/hashMap.js">
+      <metrics statements="36" coveredstatements="26" conditionals="6" coveredconditionals="4" methods="10" coveredmethods="9"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="44" count="4" type="stmt"/>
+      <line num="45" count="4" type="stmt"/>
+      <line num="49" count="7" type="stmt"/>
+      <line num="50" count="49" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
+      <line num="56" count="3" type="stmt"/>
+      <line num="57" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="61" count="3" type="stmt"/>
+      <line num="62" count="3" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
+      <line num="68" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="74" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="77" count="1" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
