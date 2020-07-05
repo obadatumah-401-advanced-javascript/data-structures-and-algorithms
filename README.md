@@ -29,3 +29,5 @@ Insertion Sort | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/
 quick Sort | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/quickSort)
 --- | --- 
 hash Map | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/hashMap)
+--- | --- 
+repeated word | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/repeatedWord)
