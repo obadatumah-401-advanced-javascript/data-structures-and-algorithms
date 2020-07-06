@@ -31,3 +31,5 @@ quick Sort | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data
 hash Map | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/hashMap)
 --- | --- 
 repeated word | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/repeatedWord)
+--- | --- 
+Tree Intersection | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/treeIntersection)
