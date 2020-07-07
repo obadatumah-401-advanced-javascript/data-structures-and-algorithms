@@ -33,3 +33,5 @@ hash Map | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-s
 repeated word | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/repeatedWord)
 --- | --- 
 Tree Intersection | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/treeIntersection)
+--- | --- 
+Left Join | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/leftJoin)
