@@ -35,3 +35,5 @@ repeated word | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/d
 Tree Intersection | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/treeIntersection)
 --- | --- 
 Left Join | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/leftJoin)
+--- | --- 
+Graphs | [CLICK!](https://github.com/obadatumah-401-advanced-javascript/data-structures-and-algorithms/tree/master/graphs)

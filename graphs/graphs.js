@@ -39,13 +39,43 @@ class Graph {
     getNeighbors(vertex) {
         if (this._adjacencyList.has(vertex)) {
             return this._adjacencyList.get(vertex);
-        }else{
+        } else {
             console.log('Vertex not found');
         }
     }
 
     size() {
         return this._adjacencyList.size;
+    }
+
+    bfg(startNode) {
+        const queue = [];
+        const vistedNodes = new Set();
+
+        queue.push(startNode);
+        vistedNodes.add(startNode);
+
+        while (queue.length) {
+            const currentNode = queue.shift();
+            const neighbors = this.getNeighbors(currentNode);
+
+            for (let neighbor of neighbors) {
+                const neighborNode = neighbor.vertex;
+                if (vistedNodes.has(neighborNode)) {
+                    continue;
+                } else {
+                    vistedNodes.add(neighborNode);
+                }
+                queue.push(neighborNode);
+            }
+
+        }
+
+        console.log({ vistedNodes });
+
+        return vistedNodes;
+
+
     }
 }
 
@@ -77,3 +107,5 @@ class Graph {
 // graph.getNeighbors(six);
 // graph.getNeighbors(ten);
 // graph.size();
+
+// graph.bfg(two);
