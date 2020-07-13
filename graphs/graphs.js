@@ -74,8 +74,28 @@ class Graph {
         console.log({ vistedNodes });
 
         return vistedNodes;
+    }
 
-
+    getEdge(array){
+        let total=0;
+        let counter=0;
+        var connected = false;
+        for(let i=0;i< array.length;i++){
+          this._adjancyList.get(array[i]).forEach(val =>{
+            if(val.vertex == array[i+1]){
+              connected = true;
+            //   console.log('trueeeeeeeeeeeeee')
+              total=total+val.weight;
+              counter++;
+            }
+            if(array.length-1 !== counter){
+              connected=false;
+            } 
+          })
+        }
+        if(connected) return `true , ${total} $`;
+        else return `false , 0 $`
+        
     }
 }
 
