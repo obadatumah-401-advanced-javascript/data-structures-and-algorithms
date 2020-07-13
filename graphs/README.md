@@ -18,6 +18,8 @@
 
 - bfg() -> space:O(n) because we declared N of variables inside the loop & time:O(n^2) because we use nested loop each loop will take N time
 
+- getEdge)() -> space:O(1) because we declared static number of variables & time:O(n^2) because we use nested loop each loop will take N time
+
 
 ## Solution
 
