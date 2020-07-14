@@ -1,5 +1,3 @@
-'use strict';
-
 class Vertex {
     constructor(value) {
         this.value = value;
@@ -7,8 +5,8 @@ class Vertex {
 }
 
 class Edge {
-    constructor(vortex, weight = 0) {
-        this.vortex = vortex;
+    constructor(vertex, weight = 0) {
+        this.vertex = vertex;
         this.weight = weight;
     }
 }
@@ -20,6 +18,7 @@ class Graph {
 
     addVertex(vertex) {
         this._adjacencyList.set(vertex, []);
+        // console.log(this._adjacencyList);
         return vertex;
     }
 
@@ -77,11 +76,13 @@ class Graph {
     }
 
     getEdge(array){
+      
+
         let total=0;
         let counter=0;
         var connected = false;
         for(let i=0;i< array.length;i++){
-          this._adjancyList.get(array[i]).forEach(val =>{
+          this._adjacencyList.get(array[i]).forEach(val =>{
             if(val.vertex == array[i+1]){
               connected = true;
             //   console.log('trueeeeeeeeeeeeee')
@@ -97,7 +98,39 @@ class Graph {
         else return `false , 0 $`
         
     }
+
+
+  dfs(startNode) {
+
+    const stack = [];
+    const visitedNodes = new Set();
+
+    stack.push(startNode);
+    visitedNodes.add(startNode);
+
+    while (stack.length) {
+
+      const currentNode = stack.pop();
+
+      const neighbors = this.getNeighbors(currentNode);
+
+      for (let neighbor of neighbors) {
+
+        const neighborNode = neighbor.vertex;
+
+        if (visitedNodes.has(neighborNode)) {
+          continue;
+        } else {
+          visitedNodes.add(neighborNode);
+        }
+        stack.push(neighborNode);
+      }
+    }
+    return visitedNodes;
+  }
+
 }
+
 
 // const graph = new Graph();
 // const ten = new Vertex(10);
@@ -112,20 +145,15 @@ class Graph {
 // graph.addVertex(seven);
 // graph.addVertex(three);
 // graph.addVertex(eight);
-// graph.addDirectedEdge(ten, two);
-// graph.addDirectedEdge(ten, six);
-// graph.addDirectedEdge(ten, three);
-// graph.addDirectedEdge(ten, seven);
-// graph.addDirectedEdge(two, seven);
-// graph.addDirectedEdge(six, seven);
-// graph.addDirectedEdge(six, eight);
-// graph.addDirectedEdge(three, seven);
-// graph.addDirectedEdge(eight, three);
+// graph.addDirectedEdge(ten, two,50);
+// graph.addDirectedEdge(ten, six,60);
+// graph.addDirectedEdge(ten, three,70);
+// graph.addDirectedEdge(ten, seven,80);
+// graph.addDirectedEdge(two, seven,90);
+// graph.addDirectedEdge(six, seven,100);
+// graph.addDirectedEdge(six, eight,110);
+// graph.addDirectedEdge(three, seven,120);
+// graph.addDirectedEdge(eight, three,130);
 
-// graph.getNodes();
-// graph.getNeighbors(two);
-// graph.getNeighbors(six);
-// graph.getNeighbors(ten);
-// graph.size();
-
-// graph.bfg(two);
+// graph.getEdge([ten,eight])
+// graph.dfs(ten)
